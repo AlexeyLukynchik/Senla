@@ -19,9 +19,11 @@ public class AssemblyLine implements IAssemblyLine {
         newProduct.installThirdPart(monitor);
 
 
-        NewProduct NP = new NewProduct(body,mother,monitor );
+       // NewProduct NP = new NewProduct(body,mother,monitor );
         System.out.println("I was born!");
-      return NP;
+
+        System.out.println(newProduct);
+      return newProduct;
 
 
     }

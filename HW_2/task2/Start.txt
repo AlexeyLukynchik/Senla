@@ -10,7 +10,8 @@ Condition newCoondition = new Condition(5000, true);
 
 Control newControl = new Control();
 
-Fly newFly = new Fly(230.0, "GrodnoAvia", newBoard);
+PassengerFly newFly = new PassengerFly( "GrodnoAvia",230.0, newBoard);
+CargoFly newCargo = new CargoFly("SlonimAirline",230.0,10000.15);
 
 newControl.takeoff();
 
