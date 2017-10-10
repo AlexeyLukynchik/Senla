@@ -1,29 +1,23 @@
-class Condition {
+class Start {
 
-private Integer oil;
+ public static void main(String[] args){
 
-private Boolean sound;
+Board newBoard = new Board (50,1);
 
-public Integer getOil(){
-return this.oil;
-}
-public void setOil(Integer Oil){
-this.oil = oil;
-}
+Flight newFlight = new Flight(23.29,15.00);
 
+Condition newCoondition = new Condition(5000, true);
 
-public Boolean  getSound(){
-return this.sound;
-}
-public void setSound(Boolean  sound){
-this.sound = sound;
-}
+Control newControl = new Control();
 
+PassengerFly newFly = new PassengerFly( "GrodnoAvia",230.0, newBoard);
+CargoFly newCargo = new CargoFly("SlonimAirline",230.0,10000.15);
 
-Condition( Integer oil, Boolean  sound) {
+newControl.takeoff();
 
-this.oil = oil;
-this.sound = sound;
-System.out.println("Condition created");
+newControl.landing();
+
 }
 }
+
+

@@ -2,7 +2,7 @@ class Fly {
 
 private Double number;
 private String airline;
-private Board board;
+
 public Double getNumber(){
 return this.number;
 }
@@ -16,21 +16,9 @@ return this.airline;
 public void setAirline(String airline){
 this.airline = airline;
 }
-//////////////
-public Board getBoard(){
-return this.board;
+public Fly (Double num, String name){
+this.number =  num;
+this.airline = name;
+ 
 }
-public void setBoard(Board board){
-this.board = board;
-}
-
-Fly(Double number, String airline, Board board) {
-
-this.number = number;
-this.airline = airline;
-this.board = board;
-System.out.println("Fly created");
-}
-
-
 }
