@@ -7,7 +7,7 @@ public class AssemblyLine implements IAssemblyLine {
     @Override
     public IProduct assembleProduct(IProduct newProduct) {
 
-      System.out.println("I received a blank");
+        System.out.println("I received a blank");
         Body body = (Body) new LineStepBody().buildProductPart();
 
 
@@ -19,11 +19,11 @@ public class AssemblyLine implements IAssemblyLine {
         newProduct.installThirdPart(monitor);
 
 
-       // NewProduct NP = new NewProduct(body,mother,monitor );
+        // NewProduct NP = new NewProduct(body,mother,monitor );
         System.out.println("I was born!");
 
         System.out.println(newProduct);
-      return newProduct;
+        return newProduct;
 
 
     }
