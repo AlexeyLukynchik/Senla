@@ -11,7 +11,7 @@ public class Main {
 
 
         AssemblyLine assemblyLine = new AssemblyLine(body, mother, monitor);
-        assemblyLine.assembleProduct(new NewProduct());
+        assemblyLine.assembleProduct(new Laptop());
         System.out.println();
 
     }

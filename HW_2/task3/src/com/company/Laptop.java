@@ -1,23 +1,16 @@
 package com.company;
 
 /**
- * Created by Алексей on 07.10.2017.
+ * Created by Алексей on 11.10.2017.
  */
-public class NewProduct implements IProduct {
+public class Laptop implements IProduct {
 
     IProductPart newBody;
     IProductPart newMotherboard;
     IProductPart newMonitor;
 
-    /* public   NewProduct(Body newBody, Motherboard newMotherboard, Monitor newMonitor ) {
 
-           this.newBody = newBody;
-           this.newMonitor = newMonitor;
-           this.newMotherboard = newMotherboard;
-
-
-       }*/
-    NewProduct() {
+    Laptop() {
     }
 
 
@@ -39,3 +32,4 @@ public class NewProduct implements IProduct {
         this.newMonitor = thirdPart;
     }
 }
+

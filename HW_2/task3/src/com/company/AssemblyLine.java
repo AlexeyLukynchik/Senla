@@ -18,23 +18,23 @@ public class AssemblyLine implements IAssemblyLine {
     }
 
     @Override
-    public IProduct assembleProduct(IProduct newProduct) {
+    public IProduct assembleProduct(IProduct laptop) {
 
         System.out.println("I received a blank");
 
 
-        newProduct.installFirstPart(body.buildProductPart());
+        laptop.installFirstPart(body.buildProductPart());
 
-        newProduct.installSecondPart(mother.buildProductPart());
+        laptop.installSecondPart(mother.buildProductPart());
 
 
-        newProduct.installThirdPart(monitor.buildProductPart());
+        laptop.installThirdPart(monitor.buildProductPart());
 
 
         System.out.println("I was born!");
 
 
-        return newProduct;
+        return laptop;
 
 
     }
