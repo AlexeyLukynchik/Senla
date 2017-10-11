@@ -22,13 +22,8 @@ public class AssemblyLine implements IAssemblyLine {
         // NewProduct NP = new NewProduct(body,mother,monitor );
         System.out.println("I was born!");
 
-<<<<<<< HEAD
-        System.out.println(newProduct);
+
         return newProduct;
-=======
-      //  System.out.println(newProduct);
-      return newProduct;
->>>>>>> 213c03d940622c0fa532334db1522dfa5c7b3b1c
 
 
     }
