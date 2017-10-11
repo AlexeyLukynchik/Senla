@@ -9,16 +9,16 @@ public class NewProduct implements IProduct {
     IProductPart newMotherboard;
     IProductPart newMonitor;
 
- /* public   NewProduct(Body newBody, Motherboard newMotherboard, Monitor newMonitor ) {
+    /* public   NewProduct(Body newBody, Motherboard newMotherboard, Monitor newMonitor ) {
 
-        this.newBody = newBody;
-        this.newMonitor = newMonitor;
-        this.newMotherboard = newMotherboard;
+           this.newBody = newBody;
+           this.newMonitor = newMonitor;
+           this.newMotherboard = newMotherboard;
 
 
-    }*/
-NewProduct(){}
-
+       }*/
+    NewProduct() {
+    }
 
 
     @Override
