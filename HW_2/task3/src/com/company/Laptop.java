@@ -1,8 +1,6 @@
 package com.company;
 
-/**
- * Created by Алексей on 11.10.2017.
- */
+
 public class Laptop implements IProduct {
 
     IProductPart newBody;
