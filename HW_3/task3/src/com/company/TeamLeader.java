@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class TeamLeader extends Employee {
+public class TeamLeader extends AEmployee {
 
     private int floor;
 

@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class Developer extends Employee {
+public class Developer extends AEmployee {
     private int floor;
 
     public int getFloor() {

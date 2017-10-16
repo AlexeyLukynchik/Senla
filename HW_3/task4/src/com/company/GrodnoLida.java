@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class GrodnoLida extends Flight {
+public class GrodnoLida extends AFlight {
 
     private String typeFly;
 

@@ -24,7 +24,7 @@ public class Main {
 
         //System.out.println(grodnoLida.toString());
         grodnoLida.setFreePlaces(SearchFreePlaces.search(grodnoLida.getBoard()));
-        Flight[] flights = new Flight[2];
+        AFlight[] flights = new AFlight[2];
 
         flights[0] = grodnoLida;
 
