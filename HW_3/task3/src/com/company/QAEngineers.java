@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by Алексей on 15.10.2017.
  */
-public class QAEngineers extends Employee {
+public class QAEngineers extends AEmployee {
 
     private int floor;
 

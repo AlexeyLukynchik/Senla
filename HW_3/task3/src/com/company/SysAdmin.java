@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class SysAdmin extends Employee {
+public class SysAdmin extends AEmployee {
     private int floor;
 
     public int getFloor() {

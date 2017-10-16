@@ -12,7 +12,7 @@ public class Main {
         SysAdmin sysAdmin = new SysAdmin("System", "Admin", "SysAdmin", 87.6, 3);
         TeamLeader teamLeader = new TeamLeader("Team", "Leader", "TeamLeader", 156.8, 2);
 
-        Employee[] employees = new Employee[5];
+        AEmployee[] employees = new AEmployee[5];
         employees[0] = boss;
         employees[1] = developer;
         employees[2] = qaEngineers;

@@ -1,7 +1,7 @@
 package com.company;
 
 
-public abstract class Employee {
+public abstract class AEmployee {
     private String name;
 
     public String getName() {

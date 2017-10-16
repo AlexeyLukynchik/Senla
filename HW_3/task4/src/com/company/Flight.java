@@ -1,7 +1,7 @@
 package com.company;
 
 
-public abstract class Flight {
+public abstract class AFlight {
 
     private String pointA;
     private String pointB;

@@ -2,18 +2,18 @@ package com.company;
 
 
 public class Firm {
-    private Employee[] employees;
+    private AEmployee[] employees;
 
 
-    public Employee[] getEmployees() {
+    public AEmployee[] getEmployees() {
         return employees;
     }
 
-    public void setEmployees(Employee[] employees) {
+    public void setEmployees(AEmployee[] employees) {
         this.employees = employees;
     }
 
-    public Firm(Employee[] employees) {
+    public Firm(AEmployee[] employees) {
         this.employees = employees;
     }
 

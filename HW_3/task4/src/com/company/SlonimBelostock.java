@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class SlonimBelostock extends Flight {
+public class SlonimBelostock extends AFlight {
 
 
     private String typeFly;
